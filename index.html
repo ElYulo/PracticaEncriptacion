@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba encriptación</title>
+	<script type="text/javascript" src="funcion.js"></script>
+	<script src="jquery.js"></script>  
+	<meta charset="utf-8">
+</head>
+<body>
+	<!--<script type="text/javascript" src="main.js"></script>-->
+	<h1>Practica de encriptacion de datos</h1>
+	<p>Tellez Nuñez Jesus Saul IDGS 7-2</p>
+	<p>La contraseña debe de tener una mayuscula, una minuscula y un caracter especial</p>
+  	<label for="pwd">Ingrese Contraseña:</label><br>
+  	<input type="text" placeholder="Minimo 8 caracteres" id="password" size="25"/>
+  	<br>
+  	<button type="submit" onclick="encriptar(this)">Encriptar</button><br>
+  	<input type="text" placeholder="Ingrese la encriptada" size="25"/><br>
+	<button type="submit" onclick="desencriptar(this)">Desencriptar</button>
+  	<p id="resultado"></p> 
+	
+</body>
+</html>
